@@ -1,0 +1,56 @@
+<doctype html!>
+    <html>
+        <head>
+            <title>Web3Bridge</title>
+        </head>
+        <body>
+            <div id='rooms' class='facility'>
+                <div class='room' id='room1'>
+                    <h3>Room 1</h3>
+                    <span class='btn'>+ Add Person</span>
+                </div>
+                <div class='room' id='room2'>
+                    <h3>Room 2</h3>
+                    <div class='profile'>
+                        <h5>Ebuka</h5>
+                        <span>Developer:</span>
+                        <span>HTML</span>
+                    </div>
+                    <span class='btn'>+ Add Person</span>
+                </div>
+                <div class='room' id='room3'>
+                    <h3>Room 3</h3>
+                    <span class='btn'>+ Add Person</span>
+                </div>
+            </div>
+            <div id='Croom' class='facility'>
+                <h3>Conference Room</h3>
+                <span class='btn'>+ Add Person</span>
+            </div>
+            <div id='selector'>
+                <h3>Name</h3>
+                <input id='name'>
+                <form id='role'>
+                    <h2>Role</h2><br>
+                    <div>
+                        <input type='radio' name='role' value="Facilitator"> Facilitator
+                    </div>
+                    <div>
+                        <input type='radio' name='role' value='Developer'> Developer
+                    </div> 
+                </form>
+                <form id='skill'>
+                    <h2>Skill</h2><br>
+                    <span><input type='radio' name='skill' id='html'> <label for='html'>HTML</label></span>
+                    <span><input type='radio' name='skill' id='css'> <label for='css'>CSS</label></span>
+                    <span><input type='radio' name='skill' id='js'> <label for='js'>JS</label></span>
+                </form>
+                <form id='gender'>
+                    <h2>Gender</h2>
+                    <span><input type='radio' name='gender' value='male'>Male</span>
+                    <span><input type='radio' name='gender' value='female'>Female</span>
+                </form>
+                <button id='close'>Close</button>
+            </div>
+        </body>
+    </html>
